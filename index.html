@@ -34,6 +34,23 @@
         .hero h1 {
             font-size: 3em;
         }
+        .hero p {
+            font-size: 1.5em;
+        }
+        .hero button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+        .hero button:hover {
+            background-color: #45a049;
+        }
         .section {
             padding: 50px;
             text-align: center;
@@ -52,10 +69,10 @@
     <img src="logo.png" alt="Зеленый Портал Логотип">
     <nav>
         <a href="#">Главная</a>
-        <a href="#">О нас</a>
-        <a href="#">Услуги</a>
-        <a href="#">Партнеры</a>
-        <a href="#">Контакты</a>
+        <a href="about.html">О нас</a>
+        <a href="services.html">Услуги</a>
+        <a href="partners.html">Партнеры</a>
+        <a href="contact.html">Контакты</a>
     </nav>
 </header>
 
@@ -63,7 +80,7 @@
     <div>
         <h1>Добро пожаловать в Зеленый Портал</h1>
         <p>Ваш маркетплейс для решений в области альтернативной энергетики</p>
-        <button>Узнать больше</button>
+        <button onclick="location.href='product.html'">Узнать больше</button>
     </div>
 </div>
 
